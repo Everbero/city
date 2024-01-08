@@ -1,4 +1,19 @@
 console.log('loaded city.js');
+// Create a new canvas element
+var canvas = document.createElement('canvas');
+
+// Add attributes to the canvas element if needed
+canvas.id = 'myCanvas'; // Example ID
+canvas.width = 800; // Example width
+canvas.height = 600; // Example height
+
+// Get a reference to the body element
+var body = document.getElementsByTagName('body')[0];
+
+// Insert the canvas element right after the opening body tag
+body.insertBefore(canvas, body.firstChild);
+
+
 var cell_count_x = 0;
 var cell_count_y = 0;
 var SIZE = 2; // default = 3
