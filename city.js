@@ -1,4 +1,5 @@
 console.log('loaded city.js');
+// pequena alteração pra carregar o cnd
 // Create a new canvas element
 var canvas = document.createElement('canvas');
 
