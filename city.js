@@ -1,3 +1,4 @@
+console.log('loaded city.js');
 var cell_count_x = 0;
 var cell_count_y = 0;
 var SIZE = 2; // default = 3
