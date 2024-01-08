@@ -47,7 +47,7 @@ class Branch {
         this.reds = 192;
         this.blues = 192;
         this.yellows = 192;
-        this.opacity = 0.05
+        this.opacity = 0.2;
     }
     getColor() {
 
